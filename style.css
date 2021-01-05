@@ -1,0 +1,122 @@
+ body{
+  background-color: #944e6c;
+}/*
+.between{
+  position: absolute;
+  right: 18px;
+  top: 1px;
+}
+.more{
+  position: absolute;
+  top: 17px;
+  left: 18px;
+  font-size: 30px;
+}
+h1{
+  margin-top :60px;
+  text-align: center;
+}
+.l{
+  display: inline-block;
+  margin-top: 30px;
+  width: 520px;
+}
+.rep{
+  display: block;
+  border: solid 1px black;
+  margin: 8px 645px 8px 540px;
+  text-align: center;
+  font-size: 50px;
+  width: 250px;
+  background-color: white; */
+  /* text-decoration: line-through; */
+/* } */
+/* .inn{
+  display: inline-block;
+  border: solid 1px black;
+  margin : 100px 100px 30px 200px;
+  font-size: 40px;
+  width: 150px;
+  text-align: center;
+  background-color: white;
+}
+.in{
+  display: inline-block;
+  margin : 70px 100px 30px 225px;
+  font-size: 20px;
+}
+.score{
+  position: absolute;
+  right : 400px;
+  top : 390px;
+  font-size: 30px;
+}
+.highscore{
+  position: absolute;
+  top : 490px;
+  right: 315px;
+  font-size: 30px;
+} */
+/* YAHA KE BAAD👇 INSTRUCTOR KA ALTERNATIVE CODE HAI*/
+
+header{
+  position: relative;
+  height: 30vh;
+  border-bottom: 2px solid white;
+}
+ main{
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  width :52rem;
+  align-items: center;
+  justify-content: center;
+}
+.right{
+  width: 52rem;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+.number{
+  font-size: 4rem;
+  background-color: #fcf8e8;
+  text-align: center;
+  border:2px solid white;
+  width: 15rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+ .between{
+  position: absolute;
+  font-size: 1.2rem;
+   top : 0;
+  right: 2rem;
+}
+ .again{
+  position: absolute;
+  font-size: 1.1rem;
+  top : 0;
+  left : 1rem;
+}
+.guess{
+  background: none;
+  text-align : center;
+  font-size: 2rem;
+  margin: 50px;
+}
+.btn{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
